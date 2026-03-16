@@ -5,7 +5,7 @@ export default function Home() {
       {/* NAVBAR FIXA */}
       <nav className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md z-50 border-b border-slate-100">
         <div className="max-w-2xl mx-auto px-8 h-16 flex items-center justify-between">
-          <span className="font-bold text-blue-600">J.</span>
+          <span className="font-bold text-blue-600 tracking-tight">CURRÍCULO</span>
           <div className="flex gap-6 text-sm font-medium text-slate-600">
             <a href="#sobre" className="hover:text-blue-600 transition-colors">Sobre</a>
             <a href="#projetos" className="hover:text-blue-600 transition-colors">Projetos</a>
@@ -18,9 +18,9 @@ export default function Home() {
         
         {/* HEADER */}
         <header className="mb-20">
-          <h1 className="text-5xl font-extrabold tracking-tight text-slate-900">João</h1>
+          <h1 className="text-5xl font-extrabold tracking-tight text-slate-900">João Pedro</h1>
           <p className="text-xl text-slate-600 mt-4 leading-relaxed">
-            Estudante de Publicidade & PR <span className="text-blue-600">|</span> IA & Automação
+            Estudante de <span className="text-slate-900 font-medium">Publicidade e Relações Públicas</span> <span className="text-blue-600">|</span> IA & Automação
           </p>
         </header>
 
@@ -77,26 +77,24 @@ export default function Home() {
                 Estou disponível para colaborações em projetos que envolvam tecnologia, comunicação e criatividade.
               </p>
               <div className="flex flex-wrap gap-4">
-                <a href="https://linkedin.com" target="_blank" className="bg-blue-600 hover:bg-blue-500 px-8 py-3 rounded-xl font-bold transition-all transform hover:-translate-y-1">
+                <a href="https://linkedin.com" target="_blank" className="bg-blue-600 hover:bg-blue-500 px-8 py-3 rounded-xl font-bold transition-all transform hover:-translate-y-1 text-center">
                   LinkedIn
                 </a>
-                <a href="mailto:teu-email@exemplo.com" className="bg-white/10 hover:bg-white/20 px-8 py-3 rounded-xl font-bold transition-all">
+                <a href="mailto:teu-email@exemplo.com" className="bg-white/10 hover:bg-white/20 px-8 py-3 rounded-xl font-bold transition-all text-center">
                   E-mail
                 </a>
               </div>
             </div>
-            {/* Decoração visual */}
             <div className="absolute top-[-20%] right-[-10%] w-64 h-64 bg-blue-600/20 rounded-full blur-3xl"></div>
           </div>
         </section>
 
         {/* FOOTER */}
         <footer className="mt-24 pt-8 border-t border-slate-100 text-sm text-slate-400 flex justify-between items-center">
-          <p>© 2026 João</p>
+          <p>© 2026 João Pedro</p>
           <div className="flex gap-4">
             <span>Next.js</span>
             <span>Vercel</span>
-            <span>GitHub</span>
           </div>
         </footer>
 
